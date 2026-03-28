@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel = "stylesheet" href = "contectme.css">
+</head>
+<body>
+    <div class="container1">
+
+   <div class="main"> 
+    <div class="contactform">
+         <h2>Contact Us</h2>
+
+    <form id = "sheetdb-form"action="https://sheetdb.io/api/v1/yq7bcxay2k73z"method = "post">
+        <div class="input-group">
+            <input type="text"name="data[Full Name]" required>
+            <label>Full Name</label>
+        </div>
+
+        <div class="input-group">
+            <input type="email" name ="data[Email Address]" required>
+            <label>Email Address</label>
+        </div>
+         <div class="input-group">
+        <input type="tel" pattern="[0-9]{10}"name ="data[Phone Number]" required>
+        <label>Phone Number</label>
+    </div>
+
+        <div class="input-group">
+            <textarea name ="data[Your Message]" required ></textarea>
+            <label>Your Message/feedback</label>
+        </div>
+
+        <button type="submit">Send Message</button>
+    </form>
+    <p id="responseMessage" style="display:none; color:green; font-weight:bold;">
+    ✅ Thank You! Your message has been sent successfully.
+</p>
+
+    </div>
+   </div>
+    <script src="file.js"></script>
+</body>
+</html>

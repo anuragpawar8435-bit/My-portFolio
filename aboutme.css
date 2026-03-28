@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(to right,#222831);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:160vh;
+}
+
+/* Main Card */
+.about-container{
+    /* background:white; */
+    width:99%;
+    /* max-width:800px; */
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Heading */
+.about-container h1{
+    font-size:40px;
+    margin-bottom:20px;
+    color:#EEEEEE;
+}
+
+/* Paragraph */
+.about-container p{
+    font-size:18px;
+    line-height:1.7;
+    margin-bottom:15px;
+    color:#EEEEEE;
+}
+
+/* Skills */
+.skills{
+    margin-top:20px;
+}
+
+.skills span{
+    display:inline-block;
+    background:#667eea;
+    color:white;
+    padding:8px 15px;
+    margin:5px;
+    border-radius:20px;
+    font-size:14px;
+}
+.social-links{
+    margin-top:40px;
+}
+
+.social-links h2{
+    color:#EEEEEE;
+    margin-bottom:15px;
+}
+
+/* Buttons */
+.social-btn{
+    display:block;
+    text-decoration:none;
+    color:white;
+    padding:12px;
+    margin:10px 0;
+    border-radius:30px;
+    text-align:center;
+    font-weight:600;
+    transition:0.3s ease;
+}
+
+.social-btn:hover{
+    transform:scale(1.05);
+}
+
+/* Platform Colors */
+
+.instagram{
+    background:#E1306C;
+}
+
+.quora{
+    background:#B92B27;
+}
+
+.gmail{
+    background:#EA4335;
+}
+
+.linkedin{
+    background:#0077B5;
+}
+
+.github{
+    background:#333;
+}
