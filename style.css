@@ -57,15 +57,18 @@ body{
     align-items:center;
     padding:40px;
 }
+img{
+    max-width:100%;
+    height:auto;
+}
 
 /* Hero Text */
 .hero-text h1{
-    font-size:60px;
+    font-size: clamp(32px, 6vw, 60px);
 }
 
 .hero-text h2{
-    font-size:32px;
-    margin:10px 0;
+    font-size: clamp(20px, 4vw, 32px);
 }
 
 .hero-text span{
@@ -112,7 +115,9 @@ body{
 
 /* Image */
 .hero-image img{
-    width:350px;
+  width: 122%;
+    max-width: 913px;
+   height: auto;
     border-radius:20px;
     box-shadow:0 20px 40px rgba(0,0,0,0.4);
 }
@@ -138,10 +143,20 @@ body{
         width:250px;
         margin-top:20px;
     }
+    .buttons{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.btn{
+    width:100%;
+    margin-right:0;
+}
 }
 }
 /* contect me css code */
-/* *{
+{
     margin:0;
     padding:0;
     box-sizing:border-box;

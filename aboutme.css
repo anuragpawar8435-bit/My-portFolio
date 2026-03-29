@@ -7,17 +7,18 @@
 
 body{
     background: linear-gradient(to right,#222831);
+    min-height: 100vh;
     display:flex;
     justify-content:center;
     align-items:center;
-    height:160vh;
+     padding:40px 20px;
 }
 
 /* Main Card */
 .about-container{
     /* background:white; */
-    width:99%;
-    /* max-width:800px; */
+    width:100%;
+     max-width:900px; 
     padding:40px;
     border-radius:15px;
     box-shadow:0 10px 30px rgba(0,0,0,0.2);
@@ -27,14 +28,14 @@ body{
 
 /* Heading */
 .about-container h1{
-    font-size:40px;
+    font-size: clamp(28px, 5vw, 40px);
     margin-bottom:20px;
     color:#EEEEEE;
 }
 
 /* Paragraph */
 .about-container p{
-    font-size:18px;
+     font-size: clamp(15px, 2.5vw, 18px);
     line-height:1.7;
     margin-bottom:15px;
     color:#EEEEEE;
